@@ -10,7 +10,7 @@ app.use(express.static(path.join(__dirname, '../../client')));
 
 // Sample API endpoint
 app.get('/api/hello', (req, res) => {
-    res.json({ message: 'Hello from Express Backend!' });
+    res.json({ message: 'Hello from Express Backend!, prueba actions' });
 });
 
 // Hello function for unit testing logic

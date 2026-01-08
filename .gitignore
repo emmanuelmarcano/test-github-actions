@@ -17,6 +17,9 @@ build/
 # Misc
 .DS_Store
 .env
+.env.test
+.env.staging
+.env.production
 .npm
 *.log
 
